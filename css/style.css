@@ -65,7 +65,7 @@ section.shoes {
   font-size: 30px;
 }
 
-img {
+.centered > img {
   max-height: 65vh;
 }
 
