@@ -38,10 +38,21 @@ nav li a {
   border-radius: 50%;
 }
 
-#shoe-1 {
-  background-color: red;
+section.shoes {
   height: 100vh;
   position: relative;
+}
+
+#shoe-1 {
+  background-color: red;
+}
+
+#shoe-2 {
+  background-color: green;
+}
+
+#shoe-3 {
+  background-color: yellow;
 }
 
 .centered {
@@ -52,4 +63,12 @@ nav li a {
   text-align: center;
   color: yellow;
   font-size: 30px;
+}
+
+img {
+  max-height: 65vh;
+}
+
+#shoe-3 h2 {
+  color: green;
 }
