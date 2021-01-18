@@ -7,11 +7,43 @@
 body {
   font-family: 'Rubik Mono One', sans-serif;
 }
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  padding: 20px 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+nav li a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  width: 30px;
+  height: 30px;
+  font-size: 10px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+}
+
 #shoe-1 {
   background-color: red;
   height: 100vh;
   position: relative;
 }
+
 .centered {
   position: absolute;
   top: 50%;
